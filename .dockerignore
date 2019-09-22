@@ -1,8 +1,10 @@
-Dockerfile*
-docker-compose*
-.dockerignore
-.git
-.gitignore
-README.md
+.git/
+.vscode/
+node_modules/
+src/
+.*ignore
+Dockerfile
 LICENSE
-.vscode
+*.md
+package*json
+webpack.config.js

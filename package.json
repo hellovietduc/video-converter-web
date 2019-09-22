@@ -1,0 +1,14 @@
+{
+  "name": "video-converter-web",
+  "version": "1.0.1",
+  "description": "A video converter web client",
+  "devDependencies": {
+    "webpack-cli": "^3.3.9",
+    "webpack": "^4.40.2"
+  },
+  "scripts": {
+    "build": "sh build.sh"
+  },
+  "author": "vietduc01100001",
+  "license": "MIT"
+}

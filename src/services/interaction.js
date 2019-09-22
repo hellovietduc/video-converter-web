@@ -12,7 +12,7 @@ const interaction = {
       const formData = new FormData();
       formData.append('file', file.files[0]);
       formData.append('format', format.value);
-      API.post(SERVER_URL + '/videos', formData, {
+      API.post(SERVER_URL + '/videos/upload', formData, {
         headers: { 'Content-Type': 'multipart/form-data' }
       })
         .catch(err => {
